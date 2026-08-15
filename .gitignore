@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+local.properties
+captures/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android build artifacts
+*.apk
+*.aab
+*.idsig
+output.json
+*.keystore
+*.jks
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

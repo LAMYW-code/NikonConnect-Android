@@ -1,0 +1,56 @@
+Nikon Connect Android — Notices and Attributions
+=================================================
+
+Third-Party Notices
+-------------------
+
+This project depends on third-party libraries that are distributed under their
+own licenses:
+
+| Dependency                              | License      | Purpose                              |
+|-----------------------------------------|--------------|--------------------------------------|
+| androidx (core, activity, lifecycle)    | Apache-2.0   | Android platform bindings            |
+| Jetpack Compose (BOM 2026.06.00)        | Apache-2.0   | Declarative UI                       |
+| kotlinx-coroutines (1.10.2)             | Apache-2.0   | Asynchronous programming             |
+| io.github.kyant0:backdrop (1.0.6)       | Apache-2.0   | Liquid-glass backdrop for gallery bar|
+| io.github.kyant0:capsule (2.1.3)        | Apache-2.0   | Capsule G2 container shapes          |
+| io.github.kyant0:shapes (1.2.0)         | Apache-2.0   | Continuous rounded shapes            |
+| junit (4.13.2)                          | EPL-1.0      | Unit tests                           |
+
+Origin and Derivative Status
+----------------------------
+
+The PTP/IP connection concept and the camera-gallery interaction model in this
+project were informed by the open repository:
+
+    https://github.com/yyhhzzzzz/Nikon_connect
+
+That repository is an iOS (Swift/SwiftUI) application. It is published without
+an explicit open-source license; under copyright law, "all rights reserved"
+applies by default. This Android project does **not** include, copy, or
+redistribute the iOS source code from that repository. It is an independent
+implementation of the PTP/IP protocol for Android, written from scratch.
+
+Camera Product Imagery
+----------------------
+
+The following image assets are included under `app/src/main/res/drawable-nodpi/`:
+
+- `camera_nikon_zf.webp`  — Nikon Z f product photo (background removed)
+- `camera_nikon_zfc.webp` — Nikon Z fc product photo (background removed)
+- `camera_product_render.webp` — generic camera render
+
+The exact copyright ownership and licensing of these images could not be
+verified before release. If you own the rights to any of them, or if their use
+here infringes on your rights, please open an issue and they will be removed or
+replaced promptly.
+
+Trademark Disclaimer
+--------------------
+
+Nikon, Z f, Z fc and the Nikon logo are trademarks or registered trademarks of
+Nikon Corporation. This project is an independent, community-developed
+application and is **not** affiliated with, endorsed by, or sponsored by Nikon
+Corporation. Use of the Nikon name in this project's identifier
+(`com.nikonconnect.app`) is descriptive and does not imply any association with
+Nikon.
